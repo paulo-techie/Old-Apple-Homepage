@@ -2,13 +2,38 @@ body {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    width: 1440px;
+    height: 980px;
 }
+
+nav {
+    margin: 60px auto;
+} 
 
 article {
     display: flex;
     flex-direction: column;
-    align-self: auto;
+}
+
+section {
+    display: block;
+    margin: -50px auto;
+    border: 0;
+    padding: 0;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    clear: both;
+    color: #6e6e6e;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: .8334em;
 }
 
 li {
@@ -20,46 +45,29 @@ li + li {
     list-style: '|';
 }
 
-aside {
-    display: flex;
-    justify-content: center;
-}
-
 button {
     border: 0;
     padding: 0;
 }
 
-footer {
-    clear: both;
-    width: 1100px;
-    margin: 0 auto;
-    font-size: .8334em;
-}
-
 aside figure {
     border: 1px solid #fff;
     margin: 0;
+    overflow: hidden;
 }
-
-section {
-    display: block;
-    margin: auto;
-}
-
-nav {
-    margin: 300px auto;
-} 
 
 nav ul li {
     list-style: none;
 }
 
+.apple-menu-button {
+    border-radius: 25%;
+}
+
 .container {
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
-    width: 1440px;
-    height: 1315px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .fig1 img {
@@ -70,7 +78,21 @@ nav ul li {
     position: relative;
     text-align: center;
     height: 82px;
-    margin-top: -38px;
+    margin-top: -27px;
+}
+
+.fig3 img {
+    opacity: 0;
+}
+
+.fig3 {
+    height: 34px;
+    width: 980px;
+    background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) 0 0;
+} 
+
+.fig3:hover {
+    background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) 0 -32px;
 }
 
 .footer-left {
@@ -94,48 +116,62 @@ nav ul li {
 
 }
 
-.search {
+#search {
+    width: 100%;
     position: relative;
+    border-radius: 0 5px 5px 0;
 } 
 
-.search input {
-    height: 14px;
-    background: #aaa;
-    border: 15px solid #777;
-    box-shadow: 0 0 50px #aaa, 0 10px 15px #555 inset; 
-    text-indent: 22px;
-    width: 100px;
+#search:hover {
+    background: linear-gradient(to bottom, #555 55%, #999 100%);
 }
 
-.search .fa-search { 
-    font-size: 14px;
-    color: #fff;
+input {
+    margin: 0 10px;
+    padding: 0;
+    height: 16px;
+    background: linear-gradient(to bottom, #666 55%, #aaa 100%);
+    border: 0.190em inset #888;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #888, 0 10px 15px #999 inset; 
+    text-indent: 23px;
+}
+
+input:focus {
+    box-shadow: 0 0 50px #555, 0 10px 15px #eee inset;
+    width: 200px;
+}
+
+.fa-search { 
+    font-size: 13px;
+    color: #efefef;
     position: absolute;
-    top: 17px;
-    left: 20px;
-  }
+    top: 14px;
+    left: 18px;
+    padding: 0;
+    margin: 0;
+}
 
 .menu-button {
-    color: #fff;
+    color: #e5e5e5;
     display: block;
     font-size: 13px;
     font-weight: 300;
     text-decoration: none;
     width: 102px;
-    height: 31px;
-    padding-top: 15px;
+    height: 26px;
+    padding-top: 10px;
     margin: auto;
-    background:  #777;
+    background: linear-gradient(to bottom, #555 55%, #999 100%);
+    border: 0.00065em outset #999;
 }
 
 .menu-button:hover {
-	background:linear-gradient(to bottom, #333 5%, #555 100%);
-	background-color:#666;
+	background: linear-gradient(to top, #444 55%, #777 100%);
 }
 
-.menu-apple-button {
-    position: relative;
-    text-align: center;
+.fa-apple {
+    margin-top: -5px;
     font-size: x-large;
 }
 
