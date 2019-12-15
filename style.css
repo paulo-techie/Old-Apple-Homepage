@@ -1,0 +1,142 @@
+body {
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li + li {
+    list-style: '|';
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 0;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: .8334em;
+}
+
+aside figure {
+    border: 1px solid #fff;
+    margin: 0;
+}
+
+section {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    margin: 300px auto;
+} 
+
+nav ul li {
+    list-style: none;
+}
+
+.container {
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    width: 1440px;
+    height: 1315px;
+    margin: 0 auto;
+}
+
+.fig1 img {
+    height: 104px;
+}
+
+.fig2 img {
+    position: relative;
+    text-align: center;
+    height: 82px;
+    margin-top: -38px;
+}
+
+.footer-left {
+    width: 44%;
+    float: left;
+    line-height: 30px;
+    margin: 0;
+}
+
+.footer-right {
+    margin: 0;
+}
+
+.footer-right li {
+    padding: 5px 10px 5px;
+}
+
+.footer-bottom {
+    clear: both;
+    line-height: 30px;
+
+}
+
+.search {
+    position: relative;
+} 
+
+.search input {
+    height: 14px;
+    background: #aaa;
+    border: 15px solid #777;
+    box-shadow: 0 0 50px #aaa, 0 10px 15px #555 inset; 
+    text-indent: 22px;
+    width: 100px;
+}
+
+.search .fa-search { 
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+  }
+
+.menu-button {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    width: 102px;
+    height: 31px;
+    padding-top: 15px;
+    margin: auto;
+    background:  #777;
+}
+
+.menu-button:hover {
+	background:linear-gradient(to bottom, #333 5%, #555 100%);
+	background-color:#666;
+}
+
+.menu-apple-button {
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+}
+
+
