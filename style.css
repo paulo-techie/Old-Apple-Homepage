@@ -1,4 +1,5 @@
 body {
+  box-sizing: content-box;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   padding: 0;
   margin: 0 auto;
@@ -27,7 +28,6 @@ input {
   border: 0.19em inset #888;
   border-radius: 10px;
   box-shadow: 0 0 50px #888, 0 10px 15px #999 inset;
-  height: 16px;
   margin: 0 10px;
   padding: 0;
   text-indent: 23px;
