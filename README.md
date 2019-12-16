@@ -26,8 +26,8 @@ Aim of the project is for continous practice of HTML5 and CSS3. The particular f
 
 👤 Paul Omondi
 
-- Github: [@githubhandle](https://github.com/paulo-techie)
-- Linkedin: [linkedin](https://www.linkedin.com/in/paul-o-43051a31)
+- Github: [@paulo-techie](https://github.com/paulo-techie)
+- Linkedin: [paul-o-43051a31](https://www.linkedin.com/in/paul-o-43051a31)
 
 
 ## 🤝 Contributing
