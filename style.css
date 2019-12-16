@@ -125,7 +125,8 @@ aside figure {
   display: block;
   font-size: 13px;
   font-weight: 300;
-  padding: 11px;
+  height: 36px;
+  /* padding: 11px; */
   margin: auto;
   width: 102px;
 }
@@ -145,8 +146,8 @@ aside figure {
 
 .search {
   border-radius: 0 5px 5px 0;
-  padding: 9.5px;
-  padding-left: 2px;
+  /* padding: 9.5px 2px; */
+  height: 34px;
   position: relative;
   width: 100%;
 }
