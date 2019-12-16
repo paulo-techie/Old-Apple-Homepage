@@ -1,5 +1,4 @@
 body {
-  box-sizing: content-box;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   padding: 0;
   margin: 0 auto;
@@ -112,7 +111,7 @@ aside figure {
   font-size: 12px;
   left: 18px;
   position: absolute;
-  top: 13px;
+  top: 15px;
 }
 
 .main-content {
@@ -126,7 +125,7 @@ aside figure {
   display: block;
   font-size: 13px;
   font-weight: 300;
-  height: 38px;
+  padding: 11px;
   margin: auto;
   width: 102px;
 }
@@ -141,12 +140,13 @@ aside figure {
 
 #apple-menu {
   border-radius: 5px 0 0 5px;
+  padding: 7px;
 }
 
 .search {
   border-radius: 0 5px 5px 0;
-  height: 28px;
-  padding-top: 8px;
+  padding: 9.5px;
+  padding-left: 2px;
   position: relative;
   width: 100%;
 }
