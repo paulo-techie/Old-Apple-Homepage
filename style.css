@@ -29,7 +29,6 @@ input {
   box-shadow: 0 0 50px #888, 0 10px 15px #999 inset;
   margin: 0;
   padding: 0;
-  margin-left: -5px;
 }
 
 input:focus {
@@ -122,9 +121,9 @@ span {
 }
 
 .menu-button {
-  color: #e5e5e5;
   background: linear-gradient(to bottom, #555 55%, #999 100%);
   border: 0.00095em outset #999;
+  color: #e5e5e5;
   margin: auto;
   padding: 11px;
 }
@@ -138,7 +137,7 @@ span {
   width: 102px;
 }
 
-#apple-menu {
+.apple-menu {
   border-radius: 5px 0 0 5px;
   padding: 7px;
 }
