@@ -4,7 +4,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-Aim of the project is for continous practice of HTML5 and CSS3. The particular focus was on background images and linear gradients.
+Aim of the project is for continous practice of HTML5 and CSS3. Particular focus was on backgrounds and gradients.
 
 ## Built With
 
@@ -13,7 +13,7 @@ Aim of the project is for continous practice of HTML5 and CSS3. The particular f
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://paulo-techie.github.io/Old-Apple-Homepage)
 
 
 ## To Install and Run ...
@@ -26,8 +26,8 @@ Aim of the project is for continous practice of HTML5 and CSS3. The particular f
 
 👤 Paul Omondi
 
-- Github: [@githubhandle](https://github.com/paulo-techie)
-- Linkedin: [linkedin](https://www.linkedin.com/in/paul-o-43051a31)
+- Github: [@paulo-techie](https://github.com/paulo-techie)
+- Linkedin: [paul-o-43051a31](https://www.linkedin.com/in/paul-o-43051a31)
 
 
 ## 🤝 Contributing
