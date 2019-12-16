@@ -1,57 +1,34 @@
-# Project Name
+# Apple Home Page
 
-> One paragraph statement about the project.
+> Recreating the classic Apple home page ...
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Aim of the project is for continous practice of HTML5 and CSS3. The particular focus was on background images and linear gradients.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+## To Install and Run ...
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Download all the files to a folder
+- Open index.html in a web browser
 
 
 ## Authors
 
-👤 **Author1**
+👤 Paul Omondi
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/paulo-techie)
+- Linkedin: [linkedin](https://www.linkedin.com/in/paul-o-43051a31)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,9 +42,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Microverse for the learning opportunity ane experience. 
+
 
 ## 📝 License
 

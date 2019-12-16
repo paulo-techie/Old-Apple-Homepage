@@ -17,15 +17,11 @@ article {
 }
 
 section {
-    display: block;
     margin: -50px auto;
-    border: 0;
-    padding: 0;
 }
 
 aside {
     display: flex;
-    justify-content: center;
 }
 
 footer {
@@ -48,6 +44,7 @@ li + li {
 button {
     border: 0;
     padding: 0;
+    margin: 0;
 }
 
 aside figure {
@@ -58,10 +55,6 @@ aside figure {
 
 nav ul li {
     list-style: none;
-}
-
-.apple-menu-button {
-    border-radius: 25%;
 }
 
 .container {
@@ -99,11 +92,6 @@ nav ul li {
     width: 44%;
     float: left;
     line-height: 30px;
-    margin: 0;
-}
-
-.footer-right {
-    margin: 0;
 }
 
 .footer-right li {
@@ -148,8 +136,6 @@ input:focus {
     position: absolute;
     top: 14px;
     left: 18px;
-    padding: 0;
-    margin: 0;
 }
 
 .menu-button {
@@ -161,7 +147,6 @@ input:focus {
     width: 102px;
     height: 26px;
     padding-top: 10px;
-    margin: auto;
     background: linear-gradient(to bottom, #555 55%, #999 100%);
     border: 0.00065em outset #999;
 }
@@ -175,4 +160,6 @@ input:focus {
     font-size: x-large;
 }
 
-
+#apple-menu {
+    border-radius: 5px 0 0 5px;
+}
