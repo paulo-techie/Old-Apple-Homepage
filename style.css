@@ -9,15 +9,10 @@ body {
 
 nav {
     margin: 60px auto;
-} 
-
-article {
-    display: flex;
-    flex-direction: column;
 }
 
-section {
-    margin: -50px auto;
+nav ul li {
+    list-style: none;
 }
 
 aside {
@@ -30,6 +25,22 @@ footer {
     width: 1100px;
     margin: 0 auto;
     font-size: .8334em;
+}
+
+input {
+    margin: 0 10px;
+    padding: 0;
+    height: 16px;
+    background: linear-gradient(to bottom, #666 55%, #aaa 100%);
+    border: 0.190em inset #888;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #888, 0 10px 15px #999 inset; 
+    text-indent: 23px;
+}
+
+input:focus {
+    box-shadow: 0 0 50px #555, 0 10px 15px #eee inset;
+    width: 200px;
 }
 
 li {
@@ -53,11 +64,9 @@ aside figure {
     overflow: hidden;
 }
 
-nav ul li {
-    list-style: none;
-}
-
 .container {
+    display: flex;
+    flex-direction: column;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     width: 100%;
     height: 100%;
@@ -101,41 +110,18 @@ nav ul li {
 .footer-bottom {
     clear: both;
     line-height: 30px;
-
-}
-
-#search {
-    width: 100%;
-    position: relative;
-    border-radius: 0 5px 5px 0;
-} 
-
-#search:hover {
-    background: linear-gradient(to bottom, #555 55%, #999 100%);
-}
-
-input {
-    margin: 0 10px;
-    padding: 0;
-    height: 16px;
-    background: linear-gradient(to bottom, #666 55%, #aaa 100%);
-    border: 0.190em inset #888;
-    border-radius: 10px;
-    box-shadow: 0 0 50px #888, 0 10px 15px #999 inset; 
-    text-indent: 23px;
-}
-
-input:focus {
-    box-shadow: 0 0 50px #555, 0 10px 15px #eee inset;
-    width: 200px;
 }
 
 .fa-search { 
-    font-size: 13px;
+    font-size: 12px;
     color: #efefef;
     position: absolute;
-    top: 14px;
+    top: 13px;
     left: 18px;
+}
+
+.main-content {
+    margin: -50px auto;
 }
 
 .menu-button {
@@ -143,23 +129,33 @@ input:focus {
     display: block;
     font-size: 13px;
     font-weight: 300;
-    text-decoration: none;
     width: 102px;
-    height: 26px;
-    padding-top: 10px;
+    height: 38px;
     background: linear-gradient(to bottom, #555 55%, #999 100%);
     border: 0.00065em outset #999;
+    margin: auto;
 }
 
 .menu-button:hover {
-	background: linear-gradient(to top, #444 55%, #777 100%);
+    background: linear-gradient(to top, #444 55%, #777 100%);
 }
 
 .fa-apple {
-    margin-top: -5px;
     font-size: x-large;
 }
 
 #apple-menu {
     border-radius: 5px 0 0 5px;
+}
+
+#search {
+    height: 28px;
+    padding-top: 8px;
+    width: 100%;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+} 
+
+#search:hover {
+    background: linear-gradient(to bottom, #555 55%, #999 100%);
 }
