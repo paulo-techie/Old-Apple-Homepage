@@ -24,11 +24,12 @@ footer {
 
 input {
   background: linear-gradient(to bottom, #666 55%, #aaa 100%);
-  border: 0.19em inset #888;
+  border: 0.25em inset #888;
   border-radius: 10px;
   box-shadow: 0 0 50px #888, 0 10px 15px #999 inset;
-  margin: 0;
-  padding: 0;
+  margin-left: -110px;
+  text-indent: 22px;
+  padding: auto 30px;
 }
 
 input:focus {
@@ -69,6 +70,14 @@ aside figure {
   height: 100%;
 }
 
+.fa-search {
+  position: relative;
+  padding: 0;
+  margin-top: 12px;
+  top: 2px;
+  left: 2px;
+}
+
 .fig1 img {
   height: 104px;
 }
@@ -105,19 +114,15 @@ aside figure {
   line-height: 30px;
 }
 
-/*
-.fa-search {
-  color: #efefef;
-  font-size: 12px;
-  position: absolute;
-  top: 15px;
-}  */
-
 span {
-  display: block;
-  font-size: 13px;
+  display: inline-block;
+  font-size: 14px;
   font-weight: 300;
   width: 102px;
+}
+
+.main-content {
+  margin: 0 auto;
 }
 
 .menu-button {
@@ -139,16 +144,14 @@ span {
 
 .apple-menu {
   border-radius: 5px 0 0 5px;
-  padding: 7px;
+  padding: 7.5px;
 }
 
-.search {
+.search-label {
   border-radius: 0 5px 5px 0;
-  height: 16px;
-  position: relative;
-  width: 100%;
+  padding: 12px 9px;
 }
 
-.search:hover {
+.search-label:hover {
   background: linear-gradient(to bottom, #555 55%, #999 100%);
 }
