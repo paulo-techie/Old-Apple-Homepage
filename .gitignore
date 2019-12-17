@@ -1,2 +1,4 @@
 #ignore operating system file
 .DS_Store
+node_modules
+.json
